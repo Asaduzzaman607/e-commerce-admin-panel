@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Inter', sans-serif !important;
+    src: url('./Inter-Regular.woff2') format('woff2'),
+    url('./Inter-Regular.woff') format('woff')!important;
+    font-weight: normal;
+    font-style: normal;
+}

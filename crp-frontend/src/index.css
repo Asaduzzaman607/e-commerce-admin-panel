@@ -1,0 +1,37 @@
+@import '../src/assets/fonts/fonts.css';
+*{
+  font-family: 'Inter', sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+@page{
+  margin: 0;
+  font-family: 'Inter', sans-serif !important;
+}
+
+body {
+  font-family: 'Inter', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.edit-link {
+  color: #62A53C;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+
+.delete-link {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+.ant-notification {
+  z-index: 9999;
+  margin-top: 50px;
+}
+.ant-layout{
+  background-color: #F0F2F5;
+}
